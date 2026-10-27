@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de Carlos Augusto — tecnologia, programação, hardware e desenvolvimento web.">
+  <meta name="theme-color" content="#050505">
+  <title>Carlos Augusto | Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Carregando site">
+    <div class="loader-logo"><span>&lt;</span>CA<span>/&gt;</span></div>
+    <div class="loader-line"><span></span></div>
+    <div class="loader-status">SYSTEM INITIALIZING...</div>
+  </div>
+
+  <div class="background" aria-hidden="true">
+    <div class="grid"></div><div class="tech-lines"></div>
+    <div class="glow glow-1"></div><div class="glow glow-2"></div>
+    <div class="scanline"></div><div class="particles" id="particles"></div>
+  </div>
+
+  <header class="header" id="header">
+    <a href="#inicio" class="logo"><span>&lt;</span>CA<span>/&gt;</span></a>
+    <nav class="nav" id="nav" aria-label="Navegação principal">
+      <a href="#inicio" class="nav-link active">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#habilidades" class="nav-link">Skills</a>
+      <a href="#trajetoria" class="nav-link">Trajetória</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="Alternar tema"><i class="fa-solid fa-moon"></i></button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-content">
+        <div class="hero-badge reveal"><span></span> DISPONÍVEL PARA OPORTUNIDADES</div>
+        <p class="hero-small reveal">Olá, eu sou o</p>
+        <h1 class="hero-title reveal">Carlos <span>Augusto</span></h1>
+        <div class="typing-container reveal"><span>Eu sou </span><span class="typing" id="typing"></span><span class="cursor">|</span></div>
+        <p class="hero-description reveal">Sou estudante de Tecnologia da Informação, interessado em desenvolvimento web, programação, hardware e criação de projetos digitais. Estou sempre aprendendo e buscando evoluir.</p>
+        <div class="hero-buttons reveal">
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contato" class="btn btn-outline">Entre em contato</a>
+        </div>
+        <div class="hero-social reveal">
+          <a href="https://github.com/carlosaugustocorreia2010-prog" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/carlos-augusto-a18334432/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="visual-grid"></div><div class="visual-ring ring-1"></div><div class="visual-ring ring-2"></div>
+        <div class="target target-1"></div><div class="target target-2"></div>
+        <div class="code-card">
+          <div class="code-glitch"></div>
+          <div class="code-top"><div class="code-dots"><span></span><span></span><span></span></div><span>portfolio.js</span><small>ONLINE</small></div>
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = <span class="code-pink">{</span></p>
+            <p class="indent">name: <span class="code-green">"Carlos Augusto"</span>,</p>
+            <p class="indent">focus: <span class="code-green">"Technology"</span>,</p>
+            <p class="indent">skills: <span class="code-blue">["HTML", "CSS", "JS"]</span></p>
+            <p><span class="code-pink">};</span></p>
+            <p class="code-comment">// criando o futuro...</p>
+          </div>
+          <div class="code-footer"><span><i class="fa-solid fa-circle"></i> SYSTEM ACTIVE</span><span>100%</span></div>
+        </div>
+        <div class="floating-card card-html"><i class="fa-brands fa-html5"></i> HTML</div>
+        <div class="floating-card card-js"><i class="fa-brands fa-js"></i> JavaScript</div>
+        <div class="floating-card card-css"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+        <div class="system-status"><span></span> SYSTEM ONLINE</div>
+      </div>
+      <a href="#sobre" class="scroll-down"><span>SCROLL</span><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-user"></i> Sobre mim</span>
+        <h2>Transformando <span>curiosidade</span> em tecnologia.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-content reveal">
+          <p class="about-highlight">Sou estudante e entusiasta da área de tecnologia, sempre buscando aprender, criar e evoluir.</p>
+          <p>Atualmente, faço curso técnico em Informática no Senac São Miguel Paulista, onde desenvolvo conhecimentos relacionados à tecnologia, hardware, redes, montagem e manutenção de computadores.</p>
+          <p>Tenho interesse em transformar conhecimentos em soluções práticas, desenvolver projetos e adquirir cada vez mais experiência na área de Tecnologia da Informação. Estou sempre buscando aprender, evoluir profissionalmente e explorar novas possibilidades dentro da tecnologia.</p>
+          <div class="about-info">
+            <div><span>Nome</span><strong>Carlos Augusto</strong></div>
+            <div><span>Área</span><strong>Tecnologia</strong></div>
+            <div><span>Estudo</span><strong>TI &amp; Programação</strong></div>
+            <div><span>Foco</span><strong>Desenvolvimento Web</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="habilidades">
+      <div class="section-header center reveal">
+        <span class="section-tag"><i class="fa-solid fa-code"></i> Minhas habilidades</span>
+        <h2>Tecnologias que fazem parte da <span>minha jornada.</span></h2>
+        <p>Ferramentas que estudo e utilizo para criar projetos.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-html5"></i></div><h3>HTML</h3><p>Estruturação de páginas modernas, semânticas e responsivas.</p><div class="skill-level"><span>Conhecimento</span><strong>80%</strong></div><div class="progress"><span style="--progress:80%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div><h3>CSS</h3><p>Interfaces, animações, responsividade e layouts personalizados.</p><div class="skill-level"><span>Conhecimento</span><strong>75%</strong></div><div class="progress"><span style="--progress:75%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-brands fa-js"></i></div><h3>JavaScript</h3><p>Interações, lógica, animações e funcionalidades para páginas.</p><div class="skill-level"><span>Conhecimento</span><strong>65%</strong></div><div class="progress"><span style="--progress:65%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-solid fa-microchip"></i></div><h3>Hardware</h3><p>Montagem, manutenção e conhecimento dos componentes de computadores.</p><div class="skill-level"><span>Conhecimento</span><strong>75%</strong></div><div class="progress"><span style="--progress:75%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div><h3>Redes</h3><p>Conceitos de redes e infraestrutura de computadores.</p><div class="skill-level"><span>Conhecimento</span><strong>60%</strong></div><div class="progress"><span style="--progress:60%"></span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon"><i class="fa-solid fa-terminal"></i></div><h3>Programação</h3><p>Lógica de programação e criação de soluções através de código.</p><div class="skill-level"><span>Conhecimento</span><strong>65%</strong></div><div class="progress"><span style="--progress:65%"></span></div></article>
+      </div>
+    </section>
+
+    <section class="timeline-section section" id="trajetoria">
+      <div class="section-header center reveal"><span class="section-tag"><i class="fa-solid fa-route"></i> Minha trajetória</span><h2>Minha evolução na <span>tecnologia.</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div><div class="timeline-content"><span class="timeline-date">Atualmente</span><h3>Estudos em Tecnologia</h3><h4>Senac</h4><p>Formação envolvendo tecnologia da informação, redes, hardware e programação.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-code"></i></div><div class="timeline-content"><span class="timeline-date">Evolução</span><h3>Wireframes e design</h3><h4>Organização de conteúdo • Figma • Photoshop</h4><p>Wireframes são esboços visuais simplificados que ajudam a planejar a estrutura de sites, aplicativos e produtos digitais.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div><div class="timeline-content"><span class="timeline-date">Evolução</span><h3>Desenvolvimento Web</h3><h4>HTML • CSS • JavaScript</h4><p>Desenvolvimento de páginas, interfaces, animações e projetos para praticar programação.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-folder-open"></i></div><div class="timeline-content"><span class="timeline-date">Evolução</span><h3>Lógica de programação</h3><h4>Tipos de dados • Operadores • Estruturas</h4><p>Técnicas para organizar passos lógicos que resolvem problemas por meio do computador.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-database"></i></div><div class="timeline-content"><span class="timeline-date">Evolução</span><h3>Banco de Dados</h3><h4>SQL • DDL • DER • DML • DQL</h4><p>Estudo de como armazenar, organizar, gerenciar e consultar informações digitalmente.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-network-wired"></i></div><div class="timeline-content"><span class="timeline-date">Evolução</span><h3>Hardware e manutenção</h3><h4>Computadores</h4><p>Conhecimentos de montagem, manutenção e identificação de componentes de computadores.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-dot"><i class="fa-solid fa-rocket"></i></div><div class="timeline-content"><span class="timeline-date">Em andamento</span><h3>Construindo minha carreira</h3><h4>Aprender • Praticar • Evoluir</h4><p>Continuo desenvolvendo projetos e ampliando meus conhecimentos em tecnologia.</p></div></article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projetos">
+      <div class="section-header reveal"><span class="section-tag"><i class="fa-solid fa-folder-open"></i> Meu trabalho</span><h2>Projetos que <span>estou construindo.</span></h2></div>
+      <div class="projects-carousel">
+        <button class="carousel-btn" id="projectPrev" type="button" aria-label="Projeto anterior"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="projects-track" id="projectsTrack">
+          <article class="project-card"><div class="project-image project-one"><div class="project-code">&lt;/&gt;</div><span>WEB</span></div><div class="project-content"><div class="project-top"><h3>C3 TECH</h3><a href="https://carlosaugustocorreia2010-prog.github.io/Site-C3TECH/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto C3 TECH"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><p>Criação e desenvolvimento, em parceria com amigos, de uma agência de tecnologia voltada à criação de soluções e projetos digitais.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+          <article class="project-card"><div class="project-image project-two"><div class="project-code">&lt;/&gt;</div><span>WEB</span></div><div class="project-content"><div class="project-top"><h3>TI 36</h3><a href="https://carlosaugustocorreia2010-prog.github.io/TI-36/" target="_blank" rel="noopener noreferrer" aria-label="Abrir projeto TI 36"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div><p>Projeto realizado em sala de aula, aplicando conhecimentos de tecnologia, programação e resolução de problemas.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+          <article class="project-card"><div class="project-image project-three"><div class="project-code">&lt;?&gt;</div><span>PROJETO</span></div><div class="project-content"><div class="project-top"><h3>Novo projeto</h3></div><p>Em breve um novo projeto será adicionado aqui.</p><div class="project-tags"><span>Em breve</span></div></div></article>
+        </div>
+        <button class="carousel-btn" id="projectNext" type="button" aria-label="Próximo projeto"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      <div class="carousel-dots" id="projectDots"><button class="active" data-slide="0" aria-label="Projeto 1"></button><button data-slide="1" aria-label="Projeto 2"></button><button data-slide="2" aria-label="Projeto 3"></button></div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-box reveal">
+        <div class="contact-content">
+          <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Vamos conversar</span>
+          <h2>Tem uma ideia? <span>Vamos criar.</span></h2>
+          <p>Tem um projeto em mente? Precisa de um site, ajuda com tecnologia ou manutenção no seu PC? Entre em contato comigo e vamos conversar!</p>
+          <div class="contact-links">
+            <a href="mailto:carlos7augusto.inf@gmail.com"><i class="fa-solid fa-envelope"></i><div><small>Email</small><strong>carlos7augusto.inf@gmail.com</strong></div></a>
+            <a href="https://www.linkedin.com/in/carlos-augusto-a18334432/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i><div><small>LinkedIn</small><strong>CARLOS AUGUSTO</strong></div></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="hidden" name="access_key" value="fc61dfd0-e365-4b42-b2c9-420eac135403">
+          <div class="input-group"><label for="name">Seu nome</label><input type="text" id="name" name="name" placeholder="Digite seu nome" autocomplete="name" required></div>
+          <div class="input-group"><label for="email">Seu email</label><input type="email" id="email" name="email" placeholder="Digite seu email" autocomplete="email" required></div>
+          <div class="input-group"><label for="message">Mensagem</label><textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem..." required></textarea></div>
+          <button type="submit" class="btn btn-primary send-btn">Enviar mensagem <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">&lt;<span>CA</span>/&gt;</div>
+    <p>Criado por Carlos Augusto e Cristhian Wallace.</p>
+    <div class="footer-line"></div>
+    <span>© 2026 — Todos os direitos reservados.</span>
+  </footer>
+
+  <button class="back-top" id="backTop" type="button" aria-label="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="./Assets/js/script.js" defer></script>
+</body>
+</html>
