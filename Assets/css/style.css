@@ -402,3 +402,12 @@ main {
   .contact-box { grid-template-columns: minmax(0, 1fr); }
   .contact-form, .contact-content { width: 100%; min-width: 0; }
 }
+
+button,
+button *,
+a,
+a *,
+[role="button"],
+[role="button"] * {
+    cursor: pointer !important;
+}
